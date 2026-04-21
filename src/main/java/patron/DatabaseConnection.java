@@ -1,4 +1,4 @@
-package patron;
+package main.java.patron;
 
 public class DatabaseConnection {
 

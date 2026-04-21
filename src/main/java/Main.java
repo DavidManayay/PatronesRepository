@@ -1,6 +1,6 @@
-package main;
+package main.java;
 
-import patron.DatabaseConnection;
+import main.java.patron.DatabaseConnection;
 
 public class Main {
 

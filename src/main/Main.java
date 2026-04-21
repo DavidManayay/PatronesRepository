@@ -1,12 +1,20 @@
+package main;
+
+import patron.DatabaseConnection;
+
 public class Main {
+
     public static void main(String[] args) {
 
+        // Módulo Carrito
         DatabaseConnection db1 = DatabaseConnection.getInstance();
         db1.ejecutarConsulta("SELECT * FROM carrito");
 
+        // Módulo Inventario
         DatabaseConnection db2 = DatabaseConnection.getInstance();
         db2.ejecutarConsulta("SELECT * FROM inventario");
 
+        // Módulo Reportes
         DatabaseConnection db3 = DatabaseConnection.getInstance();
         db3.ejecutarConsulta("SELECT * FROM reportes");
 
